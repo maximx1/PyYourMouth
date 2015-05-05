@@ -1,0 +1,3 @@
+[submodule "recipe_source/OpenYourMouth"]
+	path = recipe_source/OpenYourMouth
+	url = https://github.com/rikai/OpenYourMouth
