@@ -7,7 +7,7 @@ Web front end and utilities around OpenYourMouth project at JupiterBroadcasting
     virtualenv venv # Use python3
     source venv/bin/activate
     pip install -r requirements.txt
-    python pyyourmouth
+    python pyyourmouth.py
 ```
 
 ## License Notes
