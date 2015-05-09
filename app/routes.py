@@ -15,6 +15,10 @@ def index():
 def list_recipes():
     return jsonify(**{"recipes": recipe_controller.list_all()})
 
+@app.route('/recipe/new')
+def load_create_recipe_page():
+    return render_template('create_recipe.html')
+
 @app.route('/recipe/<recipe_id>')
 def display_recipe(recipe_id):
     recipe = recipe_controller.by_id(recipe_id)
